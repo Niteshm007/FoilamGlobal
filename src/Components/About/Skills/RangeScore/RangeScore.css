@@ -1,0 +1,68 @@
+/* Center the RangeScore container */
+.RangeScore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Container styles for the text */
+.RC-Cont p {
+    font-size: 18px;
+}
+
+.RC-Cont h2 {
+    font-size: 50px;
+}
+
+/* Progress bar container */
+.RC-rng {
+    width: 60%; /* Default width */
+    margin-top: 20px;
+}
+
+.progress-bar {
+    background: linear-gradient(90deg, #ff9800, #ff5722); 
+}
+
+
+/* Score styling with Arial font, bold, and color */
+.RangeScore .score {
+    font-family: 'Arial', sans-serif; /* Arial font */
+    font-size: 18px;  /* Adjust the size of the font */
+    font-weight: bold;  /* Make the font bold */
+    color: #333;  /* Customize the color */
+}
+
+/* Progress bar container customization */
+.RangeScore .progress-bar {
+    background-color: orange; 
+    transition: width 2s ease; 
+}
+
+/* Mobile view adjustments */
+@media (max-width: 768px) {
+    .RC-Cont p {
+        font-size: 16px; /* Smaller font for mobile */
+    }
+    .RC-Cont h2 {
+        font-size: 36px; /* Smaller heading for mobile */
+    }
+    .RC-rng {
+        width: 90%; /* Full width on mobile */
+    }
+}
+
+/* Slide-in animation for progress bar */
+.slide-animation .progress-bar {
+    animation: slideIn 2s ease;
+}
+
+@keyframes slideIn {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
