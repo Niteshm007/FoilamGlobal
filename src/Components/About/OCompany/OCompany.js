@@ -133,11 +133,11 @@ export default function OCompany() {
                   <h3>Vision</h3>
                   <br />
                   <p>
-                    At Fidel Global our vision is to become most trusted
-                    manufactures and supplier of Aluminium Foil Base Laminates
-                    Material, Metalized Base Coated Paper, 3 & 4 Ply Laminated
-                    Material with solid brand value and providing value against
-                    money to each of our customers throughout the business.
+                    At FoiLam Global our vision is to become most trusted
+                    manufactures and Quality Product supplier of Solvent Based
+                    Laminated Material with solid brand value and providing
+                    value against Expectations to each of our customers
+                    throughout the business.
                     <br />
                   </p>
                   <br />
@@ -160,21 +160,19 @@ export default function OCompany() {
                 <div className="cont">
                   <h3>Our Team</h3>
                   <p>
-                    Although our workers have diverse responsibilities as
+                    Although our co-members have diverse responsibilities as
                     members of their individual departments, they still have an
                     opportunity to be part of a big family. As employees spend a
                     good portion of their day in the workplace, they can feel
-                    comfortable and at ease.
-                    <br />
-                    <br />
-                    In order to build a strong team; we have initiated various
-                    steps such as
+                    comfortable and at ease.In order to build a strong team; we
+                    have initiated various steps such as
                     <br />
                     <br />
                     <ul>
                       <li>Establishing Leadership</li>
                       <li>Fostering Teamwork</li>
                       <li>Setting Ground Rules for Teamwork</li>
+                      <li>Good Infrastructure</li>
                     </ul>
                   </p>
                 </div>

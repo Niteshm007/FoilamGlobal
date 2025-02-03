@@ -65,7 +65,7 @@ export default function AbWho() {
           </div>
           <div className="col-md-6">
             <div className="Abwho-r">
-              <img src={Machine} alt="" className="img-fluid" />
+              {/* <img src={Machine} alt="" className="img-fluid" /> */}
             </div>
           </div>
         </div>

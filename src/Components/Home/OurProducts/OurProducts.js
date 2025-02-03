@@ -1,12 +1,12 @@
-import React from 'react';
-import { motion } from 'framer-motion';
-import { Link } from "react-router-dom"; 
-import './OurProducts.css';
+import React from "react";
+import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
+import "./OurProducts.css";
 
 export default function OProduct() {
   const cardVariants = {
     hidden: (direction) => ({
-      x: direction === 'left' ? '-100%' : '100%',
+      x: direction === "left" ? "-100%" : "100%",
       opacity: 0,
     }),
     visible: {
@@ -36,7 +36,7 @@ export default function OProduct() {
         <div className="row">
           <div className="second-title">
             <div className="heading-section" align="center">
-              <p className='m-hd'>OUR PRODUCTS</p>
+              <p className="m-hd">OUR PRODUCTS</p>
               <div className="heading-text">
                 <motion.span
                   variants={textVariants}
@@ -44,8 +44,8 @@ export default function OProduct() {
                   animate="visible"
                   custom={0}
                 >
-                 Leader in Solvent Base Laminates Material like  
-                </motion.span>{' '}
+                  Leader in Solvent Base Laminates Material like
+                </motion.span>{" "}
                 <motion.span
                   variants={textVariants}
                   initial="hidden"
@@ -53,7 +53,7 @@ export default function OProduct() {
                   custom={1}
                 >
                   <b>Aluminium Foil , Metalized Film</b>
-                </motion.span>{' '}
+                </motion.span>{" "}
                 <motion.span
                   variants={textVariants}
                   initial="hidden"
@@ -61,7 +61,7 @@ export default function OProduct() {
                   custom={2}
                 >
                   and
-                </motion.span>{' '}
+                </motion.span>{" "}
                 <motion.span
                   variants={textVariants}
                   initial="hidden"
@@ -69,15 +69,7 @@ export default function OProduct() {
                   custom={3}
                 >
                   <b>Paper Manufacturing </b>
-                </motion.span>{' '}
-                <motion.span
-                  variants={textVariants}
-                  initial="hidden"
-                  animate="visible"
-                  custom={4}
-                >
-                  Manufacturing
-                </motion.span>
+                </motion.span>{" "}
               </div>
             </div>
 
@@ -95,10 +87,10 @@ export default function OProduct() {
                     <div className="inner-card img-1">
                       <div className="hover-overlay">
                         <div className="second-txt">
-                        Ply Laminated Foil
-                        <Link className="dropdown-item" to="/Ply">
-                        Read More
-                  </Link>
+                          Ply Laminated Foil
+                          <Link className="dropdown-item" to="/Ply">
+                            Read More
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -116,10 +108,10 @@ export default function OProduct() {
                     <div className="inner-card img-2">
                       <div className="hover-overlay">
                         <div className="second-txt">
-                        Insulation Materials
-                        <Link className="dropdown-item" to="/Insulation">
-                        Read More
-                  </Link>
+                          Insulation Materials
+                          <Link className="dropdown-item" to="/Insulation">
+                            Read More
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -137,10 +129,10 @@ export default function OProduct() {
                     <div className="inner-card img-3">
                       <div className="hover-overlay">
                         <div className="second-txt">
-                        Metalized Film Laminated Material
-                  <Link className="dropdown-item" to="/Metalized">
-                  Read More
-                  </Link>
+                          Metalized Film Laminated Material
+                          <Link className="dropdown-item" to="/Metalized">
+                            Read More
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -152,7 +144,6 @@ export default function OProduct() {
         </div>
         <div className="row">
           <div className="second-title">
-
             <div className="second-card">
               <div className="row justify-content-center">
                 <div className="col-md-4">
@@ -167,10 +158,10 @@ export default function OProduct() {
                     <div className="inner-card img-4">
                       <div className="hover-overlay">
                         <div className="second-txt">
-                        Barrier Film Insulation Material
-                        <Link className="dropdown-item" to="/Food">
-                        Read More
-                  </Link>
+                          Barrier Film Insulation Material
+                          <Link className="dropdown-item" to="/Food">
+                            Read More
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -188,10 +179,10 @@ export default function OProduct() {
                     <div className="inner-card img-5">
                       <div className="hover-overlay">
                         <div className="second-txt">
-                        Food & Baverages Industries
-                        <Link className="dropdown-item" to="/Food">
-                    Read More
-                  </Link>
+                          Food & Baverages Industries
+                          <Link className="dropdown-item" to="/Food">
+                            Read More
+                          </Link>
                         </div>
                       </div>
                     </div>

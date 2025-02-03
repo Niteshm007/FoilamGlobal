@@ -5,6 +5,7 @@ import OurProducts from './OurProducts/OurProducts'
 import Who from './Who We Are/Who';
 import Why from './Why/Why';
 import HContact from './HContact/HContact';
+import IFocus from './IFocus/IFocus';
 
 
 export default function Home() {
@@ -22,7 +23,8 @@ export default function Home() {
         <div className="row"></div>
         <OurProducts />
         <Who />
-        <Why />
+        <Why/>
+        <IFocus/>
         <HContact />
       </div>
     </div>

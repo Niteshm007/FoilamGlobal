@@ -124,7 +124,6 @@ export default function HContact() {
     <div className="HContact">
       <div className="container">
         <div className="row">
-          <div className="col-md-6">
             <div className="hc-left">
               <div className="hl-cont" align="center">
                 <h2>Free Quotes</h2>
@@ -249,7 +248,7 @@ export default function HContact() {
                     <div className="form-group mt-3">
                       <textarea
                         className="form-control"
-                        rows="4"
+                        rows="8"
                         placeholder="Your Message"
                         name="message"
                         value={formData.message}
@@ -277,8 +276,7 @@ export default function HContact() {
               </div>
             </div>
             <ToastContainer />
-          </div>
-          <div className="col-md-6">
+          {/* <div className="col-md-6">
             <div className="hc-right">
               <div className="hc-up" align="center">
                 <h2>How To Contact Us</h2>
@@ -308,7 +306,7 @@ export default function HContact() {
                     <span>
                       <b>
                         <a
-                          href="https://maps.app.goo.gl/GNwX5KSj7HDeARks7"
+                          href="https://maps.app.goo.gl/FpW8s356KW6crLdD9"
                           target="_blank"
                         >
                           Find Us On Map
@@ -353,7 +351,7 @@ export default function HContact() {
                 <hr className="c-hr" align="center" />
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

@@ -21,8 +21,7 @@ export default function About() {
         animate={{ opacity: 1 }}
         transition={{ duration: 1 }}
       >
-        <div className="col-ms-12">
-          {/* Animated About Image */}
+        {/* <div className="col-ms-12">
           <motion.div
             className="about-img"
             initial={{ opacity: 0, x: -100 }} // Start off-screen from the left
@@ -31,7 +30,7 @@ export default function About() {
           >
             <img src={AboutImg} alt="About Us" className="img-fluid" />
           </motion.div>
-        </div>
+        </div> */}
       </motion.div>
 
       {/* Animated AbWho Section */}

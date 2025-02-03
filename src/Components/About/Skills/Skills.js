@@ -1,59 +1,120 @@
-import React, { useState } from 'react'
-import './Skills.css'
-import PlayCircleFilledOutlinedIcon from "@mui/icons-material/PlayCircleFilledOutlined";
-import RangeScore from './RangeScore/RangeScore';
+import React from "react";
+import "./Skills.css";
+import TD from "../../../Images/TD.png";
+import CC from "../../../Images/CC.png";
+import CP from "../../../Images/CP.png";
+import QA from "../../../Images/QA.png";
+
+// Importing framer-motion
+import { motion } from "framer-motion";
 
 export default function Skills() {
-    const [isModalOpen, setIsModalOpen] = useState(false);
-    const youtubeUrl = 'https://www.youtube.com/embed/okKBqudqE_U'; // Note: Use embed URL
-  
-    const handlePlayButtonClick = () => {
-      setIsModalOpen(true);
-    };
-  
-    const handleCloseModal = () => {
-      setIsModalOpen(false);
-    };
   return (
-    <div className='Skills m-t'>
-           <div className="third-section">
+    <div className="Skills m-t">
+      <div className="container">
+        <div className="whd" align="center">
+          <h1 className="mhd">
+            <b>Our Skills and Expertise</b>
+          </h1>
+        </div>
         <div className="row">
-          <div className="col-12 col-md-6">
-            <div className="p-3 bg-primary text-white l-section">
-              <div className="l-content">
-                <div align="center">
-                  <p>Foilam Global</p>
-                  <div className="ply-skl">
-                    <button onClick={handlePlayButtonClick} style={{ background: 'none', border: 'none', cursor: 'pointer' }}>
-                      <PlayCircleFilledOutlinedIcon fontSize="large" className='ply-btn' />
-                    </button>
-                  </div>
-                </div>
+          {/* First Column: Infrastructure */}
+          <div className="col-md-3" align="center">
+            <div className="sl-con">
+              <div className="slg">
+                {/* Apply motion.div to the image for scaling animation */}
+                <motion.img
+                  src={TD}
+                  alt=""
+                  className="Img-fluid"
+                  animate={{ scale: [1, 1.1, 1] }} // Scaling from 1 to 1.1 and back to 1
+                  transition={{
+                    duration: 2,
+                    repeat: Infinity, // Repeat the animation infinitely
+                    repeatType: "loop", // Loop the animation
+                    ease: "easeInOut", // Smooth easing
+                  }}
+                />
               </div>
             </div>
-         {/* Video Modal */}
-         {isModalOpen && (
-        <div className="video-modal">
-          <div className="modal-content">
-            <span className="close" onClick={handleCloseModal}>&times;</span>
-            <iframe
-            width="745"
-            height="420"
-            src={youtubeUrl}
-            title="You Tube Video"
-            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-          ></iframe>
+            <div className="whhc">
+              <h4>Timebound Delivery</h4>
+            </div>
           </div>
-        </div>
-      )}
+
+          {/* Second Column: Advanced Technology */}
+          <div className="col-md-3" align="center">
+            <div className="sl-con">
+              <div className="slg">
+                {/* Apply motion.div to the image for scaling animation */}
+                <motion.img
+                  src={CC}
+                  alt=""
+                  className="Img-fluid sim-2"
+                  animate={{ scale: [1, 1.1, 1] }} // Scaling from 1 to 1.1 and back to 1
+                  transition={{
+                    duration: 2,
+                    repeat: Infinity, // Repeat the animation infinitely
+                    repeatType: "loop", // Loop the animation
+                    ease: "easeInOut", // Smooth easing
+                  }}
+                />
+              </div>
+            </div>
+            <div className="whhc">
+              <h4>Communication & Cooperation</h4>
+            </div>
           </div>
-          <div className="col-12 col-md-6">
-            <RangeScore/>
+
+          {/* Third Column: Innovation Focused */}
+          <div className="col-md-3" align="center">
+            <div className="sl-con">
+              <div className="slg">
+                {/* Apply motion.div to the image for scaling animation */}
+                <motion.img
+                  src={CP}
+                  alt=""
+                  className="Img-fluid sim-3"
+                  animate={{ scale: [1, 1.1, 1] }} // Scaling from 1 to 1.1 and back to 1
+                  transition={{
+                    duration: 2,
+                    repeat: Infinity, // Repeat the animation infinitely
+                    repeatType: "loop", // Loop the animation
+                    ease: "easeInOut", // Smooth easing
+                  }}
+                />
+              </div>
+            </div>
+            <div className="whhc">
+              <h4>Competitive Pricing</h4>
+            </div>
+          </div>
+
+          {/* Fourth Column: Lamination Technology */}
+          <div className="col-md-3" align="center">
+            <div className="sl-con">
+              <div className="slg">
+                {/* Apply motion.div to the image for scaling animation */}
+                <motion.img
+                  src={QA}
+                  alt=""
+                  className="Img-fluid"
+                  animate={{ scale: [1, 1.1, 1] }} // Scaling from 1 to 1.1 and back to 1
+                  transition={{
+                    duration: 2,
+                    repeat: Infinity, // Repeat the animation infinitely
+                    repeatType: "loop", // Loop the animation
+                    ease: "easeInOut", // Smooth easing
+                  }}
+                />
+              </div>
+            </div>
+            <div className="whhc">
+              <h4>Manufacturing Checks & Quality Assurance</h4>
+            </div>
           </div>
         </div>
       </div>
-
     </div>
-  )
+  );
 }

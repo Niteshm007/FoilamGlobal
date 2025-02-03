@@ -108,3 +108,48 @@
     padding: 10px 8rem;
   }
 }
+.wh-btn {
+  position: relative;
+  padding: 10px 17rem;
+  border-radius: 30px;
+  border: 2px solid rgb(239, 127, 25);
+  background-color: white;
+  color: rgb(239, 127, 25);
+  cursor: pointer;
+  overflow: hidden;
+  z-index: 1;
+  transition: color 0.4s ease-in-out;
+}
+
+.wh-btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: rgb(243, 92, 39);
+  z-index: -1;
+  transition: width 0.4s ease-in-out;
+}
+
+.wh-btn:hover::before {
+  width: 100%;
+}
+
+.wh-btn:hover {
+  color: white;
+}
+
+/* Responsive for mobile devices */
+@media (max-width: 768px) {
+  .wh-btn {
+    padding: 10px 5rem; /* Reduced padding for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .wh-btn {
+    padding: 10px 8rem; /* Further reduced padding for extra small screens */
+  }
+}

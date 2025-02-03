@@ -1,91 +1,160 @@
-import React, { useState, useEffect, useRef } from "react";
+import React from "react";
+import { motion } from "framer-motion";
 import "./Why.css";
-import Img from '../../../Images/Coated Paper.png';
-import CountUp from 'react-countup';
-import { Link } from "react-router-dom";
+import Infa from "../../../Images/Infa.png";
+import AT from "../../../Images/AT.png";
+import IF from "../../../Images/IF.png";
+import LT from "../../../Images/LT.png";
 
 export default function Why() {
-  const [startCount, setStartCount] = useState(false);
-  const sectionRef = useRef(null);
-
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) {
-          setStartCount(true);
-        }
-      },
-      { threshold: 0.5 } // Trigger when 50% of the section is in view
-    );
-
-    if (sectionRef.current) {
-      observer.observe(sectionRef.current);
-    }
-
-    return () => {
-      if (sectionRef.current) {
-        observer.unobserve(sectionRef.current);
-      }
-    };
-  }, []);
-
   return (
-    <div className="Why m-t" ref={sectionRef}>
+    <div className="Why">
       <div className="container">
-        <div className="row">
-          <div className="col-md-6">
-            <div className="w-left">
-              <div className="up-txt">
-                <h1 className="mhd">
-                  <b>Why Choose Foilam Global</b>
-                </h1>
-                <p className="pr-sz">
-                  At Foilam Global, our goal is to offer you top-class
-                  manufacture, export and supply of insulation material, coated
-                  paper, woven and non-woven laminated extrusion materials that
-                  show you that we really care about it! Not only have we got the
-                  trendiest products, but we can also guarantee that they are of
-                  the finest quality.
+        <div className="whd" align="center">
+          <motion.h1
+            className="mhd"
+            initial={{ opacity: 0, x: -100 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.8 }}
+          >
+            <b>Why Foilam Global</b>
+          </motion.h1>
+          <motion.p
+            className="p-txt-gry pr-sz"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 1 }}
+          >
+            We have the expertise and are one of the best in the industry.
+          </motion.p>
+        </div>
+        <div className="wcont">
+          <div className="row">
+            {/* First Column: Infrastructure */}
+            <div className="col-md-3" align="center">
+              <motion.div
+                className="whlg"
+                initial={{ opacity: 0, x: -100 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.8 }}
+              >
+                <img src={Infa} alt="" className="Img-fliud" />
+              </motion.div>
+              <motion.div
+                className="whhc"
+                initial={{ opacity: 0, y: -50 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8 }}
+              >
+                <h4>Infrastructure</h4>
+              </motion.div>
+              <motion.div
+                className="whc"
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ duration: 1 }}
+              >
+                <p className="p-txt-gry pr-sz">
+                  At Foilam Global, we have the best of the facilities to ensure
+                  quality products and employee-friendly atmosphere.
                 </p>
-              </div>
-
-              <div className="dn-txt">
-                <div className="row">
-                  <div className="col-md-6">
-                    <h1>
-                      {startCount ? (
-                        <CountUp start={0} end={10} duration={2} />
-                      ) : (
-                        0
-                      )}
-                    </h1>
-                    <p>Years of Experience</p>
-                  </div>
-                  <div className="col-md-6">
-                    <h1>
-                      {startCount ? (
-                        <CountUp start={0} end={100} duration={2} />
-                      ) : (
-                        0
-                      )}+
-                    </h1>
-                    <p>Extrusion Coated Products</p>
-                  </div>
-                </div>
-              </div>
-              <div className="wbtn" align="center">
-              <Link to="/about">
-                <button className="wh-btn"><b>Read More</b></button>
-                </Link>
-              </div>
+              </motion.div>
             </div>
-          </div>
 
-          <div className="col-md-6">
-            <div className="w-right m-t">
-              <div className="image-container">
-                <img src={Img} alt="" className="img-fluid" />
-              </div>
+            {/* Second Column: Advanced Technology */}
+            <div className="col-md-3" align="center">
+              <motion.div
+                className="whlg"
+                initial={{ opacity: 0, x: 100 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.8 }}
+              >
+                <img src={AT} alt="" className="Img-fliud" />
+              </motion.div>
+              <motion.div
+                className="whhc"
+                initial={{ opacity: 0, y: -50 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8 }}
+              >
+                <h4>Advanced Technology</h4>
+              </motion.div>
+              <motion.div
+                className="whc"
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ duration: 1 }}
+              >
+                <p className="p-txt-gry pr-sz">
+                  We ensure that machinery from renowned machine manufacturing
+                  companies are used enabling us to deliver products that meet
+                  the customer requirements satisfactorily.
+                </p>
+              </motion.div>
+            </div>
+
+            {/* Third Column: Innovation Focused */}
+            <div className="col-md-3" align="center">
+              <motion.div
+                className="whlg"
+                initial={{ opacity: 0, x: -100 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.8 }}
+              >
+                <img src={IF} alt="" className="Img-fliud" />
+              </motion.div>
+              <motion.div
+                className="whhc"
+                initial={{ opacity: 0, y: -50 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8 }}
+              >
+                <h4>Innovation Focused</h4>
+              </motion.div>
+              <motion.div
+                className="whc"
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ duration: 1 }}
+              >
+                <p className="p-txt-gry pr-sz">
+                  At Foilam Global, we constantly engage in research and
+                  development activities, to manufacture products aimed at
+                  providing customers a cost-effective solution.
+                </p>
+              </motion.div>
+            </div>
+
+            {/* Fourth Column: Lamination Technology */}
+            <div className="col-md-3" align="center">
+              <motion.div
+                className="whlg"
+                initial={{ opacity: 0, x: 100 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.8 }}
+              >
+                <img src={LT} alt="" className="Img-fliud" />
+              </motion.div>
+              <motion.div
+                className="whhc"
+                initial={{ opacity: 0, y: -50 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8 }}
+              >
+                <h4>Lamination Technology</h4>
+              </motion.div>
+              <motion.div
+                className="whc"
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ duration: 1 }}
+              >
+                <p className="p-txt-gry pr-sz">
+                  We have state-of-the-art machinery and technology to deliver
+                  quality laminated products ensuring no compromise on customer
+                  satisfaction levels.
+                </p>
+              </motion.div>
             </div>
           </div>
         </div>
