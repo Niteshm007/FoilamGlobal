@@ -24,7 +24,7 @@ export default function Home() {
         <OurProducts />
         <Who />
         <Why/>
-        <IFocus/>
+        {/* <IFocus/> */}
         <HContact />
       </div>
     </div>

@@ -36,7 +36,7 @@ export default function Insulation() {
                   <p>Welcome To Foilam Global</p>
                   <h1>Laminated Metalized Film <br />Manufacturer</h1>
 
-                  <div className="car-btn row caras-sm">
+                  {/* <div className="car-btn row caras-sm">
                     <div className="col-auto">
                       <Link to="/Insulation">
                         <button className="caras-btn">Learn More</button>
@@ -49,7 +49,7 @@ export default function Insulation() {
                       </button>
                       </Link>
                     </div>
-                  </div>
+                  </div> */}
                 </motion.div>
               </div>
             </div>

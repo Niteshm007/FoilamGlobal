@@ -97,7 +97,7 @@ export default function ResponsiveNavbar() {
                         to="/Ply"
                         onClick={handleNavLinkClick}
                       >
-                        Laminated Aluminium Foil
+                        Laminated Aluminium Foil / Metlized Film
                       </Link>
                     </li>
                     <li>
@@ -106,7 +106,7 @@ export default function ResponsiveNavbar() {
                         to="/Insulation"
                         onClick={handleNavLinkClick}
                       >
-                        Laminated Metalized Film
+                        Laminated Aluminium Foil / Metalized Paper
                       </Link>
                     </li>
                     <li>
@@ -139,46 +139,21 @@ export default function ResponsiveNavbar() {
                   </ul>
                 </li>
                 {/* Resources dropdown */}
-                <li className="nav-item dropdown nav-link-hover">
-                  <a
-                    className="nav-link dropdown-toggle rd-clr"
-                    href="/"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
+
+                <motion.div
+                  whileHover={{ scale: 1.05 }}
+                  transition={{ duration: 0.2 }}
+                >
+                  <Nav.Link
+                    as={Link}
+                    to="/Glr"
+                    className="nav-link-hover"
+                    onClick={handleNavLinkClick}
                   >
-                    Resources
-                  </a>
-                  <ul className="dropdown-menu nav-link-hover">
-                    <li>
-                      <Link
-                        className="dropdown-item"
-                        to="/Glr"
-                        onClick={handleNavLinkClick}
-                      >
-                        Gallery
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        className="dropdown-item"
-                        to="/QA"
-                        onClick={handleNavLinkClick}
-                      >
-                        Quality Assurance
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        className="dropdown-item"
-                        to="/Faqs"
-                        onClick={handleNavLinkClick}
-                      >
-                        FAQs
-                      </Link>
-                    </li>
-                  </ul>
-                </li>
+                    Gallery
+                  </Nav.Link>
+                </motion.div>
+                
                 <motion.div
                   whileHover={{ scale: 1.05 }}
                   transition={{ duration: 0.2 }}

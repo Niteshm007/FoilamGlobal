@@ -87,7 +87,7 @@ export default function OProduct() {
                     <div className="inner-card img-1">
                       <div className="hover-overlay">
                         <div className="second-txt">
-                          Ply Laminated Foil
+                        Laminated Aluminium Foil / Metlized Film
                           <Link className="dropdown-item" to="/Ply">
                             Read More
                           </Link>
@@ -108,7 +108,7 @@ export default function OProduct() {
                     <div className="inner-card img-2">
                       <div className="hover-overlay">
                         <div className="second-txt">
-                          Insulation Materials
+                        Laminated Aluminium Foil / Metalized Paper
                           <Link className="dropdown-item" to="/Insulation">
                             Read More
                           </Link>
@@ -129,7 +129,7 @@ export default function OProduct() {
                     <div className="inner-card img-3">
                       <div className="hover-overlay">
                         <div className="second-txt">
-                          Metalized Film Laminated Material
+                        3/4 Ply Laminated Products
                           <Link className="dropdown-item" to="/Metalized">
                             Read More
                           </Link>
@@ -158,7 +158,7 @@ export default function OProduct() {
                     <div className="inner-card img-4">
                       <div className="hover-overlay">
                         <div className="second-txt">
-                          Barrier Film Insulation Material
+                        Insulation Material
                           <Link className="dropdown-item" to="/Food">
                             Read More
                           </Link>
@@ -179,7 +179,7 @@ export default function OProduct() {
                     <div className="inner-card img-5">
                       <div className="hover-overlay">
                         <div className="second-txt">
-                          Food & Baverages Industries
+                        Solvant Based Laminated Products
                           <Link className="dropdown-item" to="/Food">
                             Read More
                           </Link>

@@ -1,6 +1,7 @@
 import React from "react";
 import "./CMap.css";
 import { FaPhoneFlip } from "react-icons/fa6";
+import { FiMail } from "react-icons/fi";
 
 export default function CMap() {
   return (
@@ -33,7 +34,6 @@ export default function CMap() {
                   the optimum choice. Give us a call on below numbers:
                 </p>
               </div>
-              <div className="row"></div>
               <div className="row">
                 <div className="col-md-6">
                   <div className="cmr-cont">
@@ -45,7 +45,7 @@ export default function CMap() {
                       </div>
                       <div className="cmd-cont">
                         <h5>Admin</h5>
-                        <p className="uln">90234 07993</p>
+                        <p className="uln">+91 90234 07993</p>
                       </div>
                     </div>
                   </div>
@@ -60,7 +60,39 @@ export default function CMap() {
                       </div>
                       <div className="cmd-cont">
                         <h5>Marketing</h5>
-                        <p className="uln">90234 07993</p>
+                        <p className="uln">+91 90992 00228</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="row">
+                <div className="col-md-6">
+                  <div className="cmr-cont">
+                    <div className="crd-br d-flex">
+                      <div className="logo-br">
+                        <div className="logo-inr">
+                          <FiMail className="lg-icon" />
+                        </div>
+                      </div>
+                      <div className="cmd-cont">
+                        <h5>Admin</h5>
+                        <p className="uln">admin@foilamglobal.com</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-6">
+                  <div className="cmr-cont">
+                    <div className="crd-br d-flex">
+                      <div className="logo-br">
+                        <div className="logo-inr">
+                          <FiMail className="lg-icon" />
+                        </div>
+                      </div>
+                      <div className="cmd-cont">
+                        <h5>Marketing</h5>
+                        <p className="uln">sales@foilamglobal.com</p>
                       </div>
                     </div>
                   </div>

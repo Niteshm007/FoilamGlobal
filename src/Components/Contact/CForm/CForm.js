@@ -124,63 +124,7 @@ export default function CForm() {
     <div className="CForm m-t">
       <div className="container">
         <div className="row justify-content-center align-items-center">
-          {/* Left column for contact information */}
-          <div className="col-md-6" align="center">
-            <div className="cf-l m-t" align="center">
-              <div className="cf-up">
-                <h2 align="center">Get In Touch</h2>
-                <p>
-                  If you’ve got questions or ideas you would like to share, send
-                  a message. For anything more specific, please use one of the
-                  addresses listed below.
-                </p>
-              </div>
 
-              <div className="cf-dn">
-                <div className="row" align="center">
-                  <div className="cfd-cont" align="center">
-                    <h3>Factory Address</h3>
-                    <p>
-                      Plot No 69 Vivekanand Industrial Park, Nr. Shivbhumi Ind.
-                      Park, Kubadthal, Ahmedabad Indore Highway, Ahmedabad -
-                      Gujarat - India - 382430
-                    </p>
-                  </div>
-                  <div className="cont" align="center">
-                    <span>
-                      <a
-                        href="https://maps.app.goo.gl/cHi89yAmoCghuCEN6"
-                        target="_blank"
-                      >
-                        <MdLocationPin className="icn" /> Find Us On Map
-                      </a>
-                    </span>
-                  </div>
-                </div>
-                <div className="row">
-                  <div className="col-md-6 mt-4">
-                    <div className="cfd-cont">
-                      <h3>Marketing</h3>
-                      <p>
-                        <FaPhoneFlip /> +91 90234 07993
-                      </p>
-                    </div>
-                  </div>
-                  <div className="col-md-6 mt-4">
-                    <div className="cfd-cont">
-                      <h3>Our Email</h3>
-                      <p>
-                        <MdOutlineEmail /> sales.foilamglobal@gmail.com
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          {/* Right column for contact form */}
-          <div className="col-md-6 m-t">
             <div className="cf-dwn">
               <div className="cf-cont" align="center">
                 <div className="cf-hd">
@@ -328,7 +272,6 @@ export default function CForm() {
                   </div>
                 )}
               </div>
-            </div>
           </div>
         </div>
       </div>

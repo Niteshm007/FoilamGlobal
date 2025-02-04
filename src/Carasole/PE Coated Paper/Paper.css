@@ -23,12 +23,18 @@
     border-radius: 30px;
     height: 60vh;
     border: 3px solid rgb(149, 209, 36) !important;
-    background: url('../../Images/3PlyP.png');
+    background: url('../../Images/1.png');
     background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-blend-mode: lighten;
+    background-color: rgba(212, 185, 185, 0.5); /* Light white overlay */
   }
   
   .inner-txt {
-  margin-top: 50px;
+  margin-top:355px !important;
+  font-size: 13px !important;
+  color: black;
   }
   
   .caras-btn {
@@ -70,12 +76,19 @@
   /* Mobile styles */
   @media (max-width: 768px) { /* Adjust the width as needed */
   .inner-br p {
-    font-size: 15px !important; /* Smaller font size for mobile */
+    font-size: 18px !important;
+    position: relative;
+    bottom: 230px;
+    text-align: center !important;
   }
   
+  
   .inner-br h1 {
-    font-size: 30px !important; /* Smaller font size for mobile */
+    font-size: 22px !important; /* Smaller font size for mobile */
     white-space: nowrap !important; /* Prevent line breaks */
+    position: relative;
+    bottom: 230px;
+    text-align: center !important;
   }
   
   .inner-txt {

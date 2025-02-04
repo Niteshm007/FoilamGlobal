@@ -30,13 +30,13 @@ export default function Paper() {
             <div className="middle-br row justify-content-center align-items-center">
               <div className="inner-br">
                 <motion.div 
-                  className="inner-txt" 
+                  className="inner-txt-m " 
                   variants={textVariants}
                 >
                   <p>Welcome To Foilam Global</p>
                   <h1>Laminated Aluminium Foil <br />Manufacturer</h1>
 
-                  <div className="car-btn row caras-sm">
+                  {/* <div className="car-btn row caras-sm">
                     <div className="col-auto">
                       <Link to="/Ply">
                         <button className="caras-btn">Learn More</button>
@@ -47,7 +47,7 @@ export default function Paper() {
                         <button className="caras-btn">Request a Sample</button>
                       </Link>
                     </div>
-                  </div>
+                  </div> */}
                 </motion.div>
               </div>
             </div>

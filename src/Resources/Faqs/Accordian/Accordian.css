@@ -17,11 +17,11 @@
       transition: background-color 0.3s ease, color 0.3s ease;
 
       &:hover {
-        color: orange !important;
+        color: rgb(0, 175, 239);
       }
 
       .accordion-button:not(.collapsed) {
-        background-color: orange;
+        background-color: rgb(0, 175, 239);
         color: white;
       }
     }
@@ -37,17 +37,17 @@
       }
 
       &.collapsed:hover {
-        color: rgb(245, 134, 52);
+        color: rgb(0, 175, 239);
       }
 
       &:not(.collapsed) {
-        background-color: orange;
+        background-color:rgb(0, 175, 239);
         color: white;
       }
     }
 
     .accordion-collapse {
       background-color: white;
-      border: 1px solid orange;
+      border: 1px solid rgb(0, 175, 239);
     }
 }

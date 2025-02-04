@@ -26,16 +26,21 @@
     height: 60vh;
     border: 1px solid black;
     border: 3px solid rgb(149, 209, 36) !important;
-    background: url('../../Images/Roll.png');
+    background: url('../../Images/2.png');
     background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-blend-mode: lighten;
+    background-color: rgba(192, 170, 170, 0.5); /* Light white overlay */
 }
 
 .inner-txt{
   margin-top: 50px;
+  color: black;
 }
 
 .inner-txt h1{
-  font-size: 5em;
+  font-size: 4em !important;
   font-weight: bolder;
 }
 
@@ -80,12 +85,16 @@
   /* Mobile styles */
   @media (max-width: 768px) { /* Adjust the width as needed */
     .inner-br-i p {
-      font-size: 15px !important; /* Smaller font size for mobile */
+      font-size: 17px !important; 
+      position: relative;
+      bottom: 230px;
     }
   
     .inner-br-i h1 {
-      font-size: 25px !important; /* Smaller font size for mobile */
+      font-size: 22px !important; /* Smaller font size for mobile */
       white-space: nowrap !important; /* Prevent line breaks */
+      position: relative;
+      bottom: 230px;
     }
 
     .inner-txt{

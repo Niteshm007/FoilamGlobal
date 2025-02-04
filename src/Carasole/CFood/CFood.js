@@ -32,9 +32,9 @@ export default function CFood() {
                 variants={textVariants}
               >
                 <p>Welcome To Foilam Global</p>
-                <h1>Solvant Based Laminated Products <br />Manufacturer</h1>
+                <h1>Solvant Based Laminated <br />Products Manufacturer</h1>
 
-                <div className="car-btn row caras-sm">
+                {/* <div className="car-btn row caras-sm">
                   <div className="col-auto">
                     <Link to="/Food">
                       <button className="caras-btn">Learn More</button>
@@ -47,7 +47,7 @@ export default function CFood() {
                     </button>
                     </Link>
                   </div>
-                </div>
+                </div> */}
               </motion.div>
             </div>
           </div>

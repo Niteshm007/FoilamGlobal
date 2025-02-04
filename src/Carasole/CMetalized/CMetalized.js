@@ -32,9 +32,9 @@ export default function CMetalized() {
                 variants={textVariants}
               >
                 <p>Welcome To Foilam Global</p>
-                <h1>3/4 Ply Laminated Products <br /> Material <br />Manufacturer</h1>
+                <h1>3/4 Ply Laminated Products <br /> Material Manufacturer</h1>
 
-                <div className="car-btn row caras-sm">
+                {/* <div className="car-btn row caras-sm">
                   <div className="col-auto">
                     <Link to="/Metalized">
                       <button className="caras-btn">Learn More</button>
@@ -47,7 +47,7 @@ export default function CMetalized() {
                       </button>
                       </Link>
                   </div>
-                </div>
+                </div> */}
               </motion.div>
             </div>
           </div>

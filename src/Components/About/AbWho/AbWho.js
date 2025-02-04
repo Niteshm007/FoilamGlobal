@@ -1,12 +1,12 @@
 import React from "react";
 import "./AbWho.css";
-import Machine from "../../../Images/Machine.png";
+import Machine from "../../../Images/MCN.png";
 
 export default function AbWho() {
   return (
     <div className="AbWho m-t">
       <div className="container">
-        <div className="row">
+        <div className="row justify-content-center align-items-center">
           <div className="col-md-6">
             <div className="Abwho-l">
               <p>
@@ -63,9 +63,9 @@ export default function AbWho() {
               </div>
             </div>
           </div>
-          <div className="col-md-6">
+          <div className="col-md-6 ">
             <div className="Abwho-r">
-              {/* <img src={Machine} alt="" className="img-fluid" /> */}
+              <img src={Machine} alt="" className="img-fluid" />
             </div>
           </div>
         </div>

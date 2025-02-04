@@ -24,12 +24,14 @@
     border-radius: 30px;
     height: 60vh;
     border: 3px solid rgb(149, 209, 36) !important;
-    background: url('../../Images/MetFilm1.png') ;
+    background: url('../../Images/3.png') ;
     background-size: cover;
 }
 
 .inner-txt-m{
-  margin-top: 50px;
+  margin-top:355px !important;
+  font-size: 13px !important;
+  color: black;
 }
 
 .inner-txt-m h1{
@@ -78,13 +80,18 @@
   /* Mobile styles */
   @media (max-width: 768px) { /* Adjust the width as needed */
     .inner-br-m p {
-      font-size: 15px !important; /* Smaller font size for mobile */
+      font-size: 15px !important;
+      position: relative;
+      bottom: 230px; 
+      text-align: center !important;
     }
   
     .inner-br-m h1 {
-      font-size: 23px !important; /* Smaller font size for mobile */
+      font-size: 22px !important; /* Smaller font size for mobile */
       white-space: nowrap !important; /* Prevent line breaks */
       text-align: center !important;
+      position: relative;
+      bottom: 230px;
     }
 
     .inner-txt{

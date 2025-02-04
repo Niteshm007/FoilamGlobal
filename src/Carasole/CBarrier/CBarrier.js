@@ -34,7 +34,7 @@ export default function CBarrier() {
                 <p>Welcome To Foilam Global</p>
                 <h1>Insulation Material <br />Manufacturer</h1>
 
-                <div className="car-btn row caras-sm">
+                {/* <div className="car-btn row caras-sm">
                   <div className="col-auto">
                     <Link to="/Barrier">
                       <button className="caras-btn">Learn More</button>
@@ -47,7 +47,7 @@ export default function CBarrier() {
                     </button>
                     </Link>
                   </div>
-                </div>
+                </div> */}
               </motion.div>
             </div>
           </div>

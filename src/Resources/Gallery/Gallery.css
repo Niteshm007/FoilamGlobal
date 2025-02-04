@@ -14,5 +14,6 @@
 
 .glr-img img{
     width: 100%;
+    height: 30vh;
     border-radius: 50px;
 }

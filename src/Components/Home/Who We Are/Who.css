@@ -31,11 +31,11 @@
 }
 
 .who .accordion-header:hover {
-  color: orange !important;
+  color: rgb(0, 175, 239) !important;
 }
 
 .who .accordion-item .accordion-button:not(.collapsed) {
-  background-color: orange !important;
+  background-color: rgb(0, 175, 239) !important;
   color: white;
 }
 
@@ -51,26 +51,26 @@
 }
 
 .who .accordion-button.collapsed:hover {
-  color: rgb(245, 134, 52) !important;
+  color: rgb(0, 175, 239) !important;
 }
 
 .who .accordion-button:not(.collapsed) {
-  background-color: orange !important;
+  background-color: rgb(0, 175, 239) !important;
   color: white;
 }
 
 .who .accordion-collapse {
   background-color: white;
-  border: 1px solid orange;
+  border: 1px solid rgb(0, 175, 239);
 }
 
 .who .wh-btn {
   position: relative;
   padding: 10px 17rem;
   border-radius: 30px;
-  border: 2px solid rgb(239, 127, 25);
+  border: 2px solid rgb(0, 175, 239);
   background-color: white;
-  color: rgb(239, 127, 25);
+  color: rgb(0, 175, 239);
   cursor: pointer;
   overflow: hidden;
   z-index: 1;
@@ -84,7 +84,7 @@
   left: 0;
   width: 0;
   height: 100%;
-  background-color: rgb(243, 92, 39);
+  background-color: rgb(0, 175, 239);
   z-index: -1;
   transition: width 0.4s ease-in-out;
 }

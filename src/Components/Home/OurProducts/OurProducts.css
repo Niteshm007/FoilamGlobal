@@ -41,26 +41,26 @@
   }
   
   .img-1 {
-    background: url('../../../Images/Ply\ .png');
+    background: url('../../../Images/H1.webp');
     background-size: cover;
   }
   
   .img-2 {
-    background: url('../../../Images/Insulation1.png');
+    background: url('../../../Images/H2.jpg');
     background-size: contain;
     background-repeat: no-repeat;
   }
   
   .img-3 {
-    background: url('../../../Images/MetFilm2.png');
+    background: url('../../../Images/H3.webp');
     background-size: cover;
   }
   .img-4 {
-    background: url('../../../Images/Barrier.png');
+    background: url('../../../Images/H4.webp');
     background-size: cover;
   }
   .img-5 {
-    background: url('../../../Images/FoodImg.png');
+    background: url('../../../Images/H5.jpg');
     background-size: cover;
   }
   

@@ -91,7 +91,7 @@ export default function Footer() {
                   <FaPhone className="f-icon" />
                 </div>
                 <div className="txt">
-                  <p>90234 07993 / 90992 00228</p>
+                  <p>+91 90234 07993 / +91 90992 00228</p>
                 </div>
               </div>
               <div className="r-cont d-flex">
@@ -99,7 +99,7 @@ export default function Footer() {
                   <FiMail className="f-icon" />
                 </div>
                 <div className="txt">
-                  <p>info@foilamglobal.com</p>
+                  <p>admin@foilamglobal.com</p>
                 </div>
               </div>
               <div className="ftr-social">
