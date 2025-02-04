@@ -25,10 +25,7 @@ export default function Footer() {
                 emphasize on an unfazed focus towards the satisfaction and
                 success of the client. Our strength lies in Export oriented
                 work, well plan infrastructure, in house R&D facility and our
-                experienced staff members. Most of the team members have
-                expertise in the field of creative products Laminating
-                materials, and the manufacturing of Laminated Aluminium Foil and
-                Metalized Products.
+                experienced staff members.
               </p>
             </div>
           </div>
@@ -39,23 +36,23 @@ export default function Footer() {
               <h3>Our Products</h3>
               <ul>
                 <li>
-                  <Link to="/Ply">Ply Laminated Foil</Link>{" "}
+                  <Link to="/Ply"> Laminated Aluminium Foil</Link>{" "}
                   {/* Link to PInsulation page */}
                 </li>
                 <li>
-                  <Link to="/Insulation">Insulation Industries</Link>{" "}
+                  <Link to="/Insulation"> Laminated Metalized Film</Link>{" "}
                   {/* Link to PInsulation page */}
                 </li>
                 <li>
-                  <Link to="/Metalized">Metalized Film Laminated Material</Link>{" "}
+                  <Link to="/Metalized">3/4 Ply Laminated Products</Link>{" "}
                   {/* Link to PInsulation page */}
                 </li>
                 <li>
-                  <Link to="/Barrier">Barrier Film Insulation Material</Link>{" "}
+                  <Link to="/Barrier">Insulation Material</Link>{" "}
                   {/* Link to PInsulation page */}
                 </li>
                 <li>
-                  <Link to="/Food">Food & Baverages Industries</Link>{" "}
+                  <Link to="/Food">Solvant Based Laminated Products</Link>{" "}
                   {/* Link to PInsulation page */}
                 </li>
                 {/* <li>
@@ -74,7 +71,7 @@ export default function Footer() {
                   <IoMdTime className="f-icon" />
                 </div>
                 <div className="txt">
-                  <p>Mon - Sun: 8.00 AM - 8.00 PM</p>
+                  <p>Mon - Sun: 9.00 AM - 6.00 PM</p>
                 </div>
               </div>
               <div className="r-cont d-flex">
@@ -94,7 +91,7 @@ export default function Footer() {
                   <FaPhone className="f-icon" />
                 </div>
                 <div className="txt">
-                  <p>90234 07993</p>
+                  <p>90234 07993 / 90992 00228</p>
                 </div>
               </div>
               <div className="r-cont d-flex">
@@ -102,7 +99,7 @@ export default function Footer() {
                   <FiMail className="f-icon" />
                 </div>
                 <div className="txt">
-                  <p>sales.foilamglobal@gmail.com</p>
+                  <p>info@foilamglobal.com</p>
                 </div>
               </div>
               <div className="ftr-social">

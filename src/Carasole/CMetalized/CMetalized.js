@@ -32,7 +32,7 @@ export default function CMetalized() {
                 variants={textVariants}
               >
                 <p>Welcome To Foilam Global</p>
-                <h1>Metalized Film Laminated <br /> Material <br />Manufacturer</h1>
+                <h1>3/4 Ply Laminated Products <br /> Material <br />Manufacturer</h1>
 
                 <div className="car-btn row caras-sm">
                   <div className="col-auto">

@@ -32,7 +32,7 @@ export default function CBarrier() {
                 variants={textVariants}
               >
                 <p>Welcome To Foilam Global</p>
-                <h1>Barrier Film Insulation <br />Manufacturer</h1>
+                <h1>Insulation Material <br />Manufacturer</h1>
 
                 <div className="car-btn row caras-sm">
                   <div className="col-auto">

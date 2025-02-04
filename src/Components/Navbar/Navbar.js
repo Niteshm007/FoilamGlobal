@@ -97,7 +97,7 @@ export default function ResponsiveNavbar() {
                         to="/Ply"
                         onClick={handleNavLinkClick}
                       >
-                        Ply Laminated Foil
+                        Laminated Aluminium Foil
                       </Link>
                     </li>
                     <li>
@@ -106,16 +106,16 @@ export default function ResponsiveNavbar() {
                         to="/Insulation"
                         onClick={handleNavLinkClick}
                       >
-                        Insulation Materials
+                        Laminated Metalized Film
                       </Link>
                     </li>
                     <li>
                       <Link
                         className="dropdown-item"
-                        to="/Metalized"
+                        to="/Ply"
                         onClick={handleNavLinkClick}
                       >
-                        Metalized Film Laminated Material
+                        3/4 Ply Laminated Products
                       </Link>
                     </li>
                     <li>
@@ -124,7 +124,7 @@ export default function ResponsiveNavbar() {
                         to="/Barrier"
                         onClick={handleNavLinkClick}
                       >
-                        Barrier Film Insulation Material
+                        Insulation Material
                       </Link>
                     </li>
                     <li>
@@ -133,7 +133,7 @@ export default function ResponsiveNavbar() {
                         to="/Food"
                         onClick={handleNavLinkClick}
                       >
-                        Food & Beverages Industries
+                       Solvant Based Laminated Products
                       </Link>
                     </li>
                   </ul>

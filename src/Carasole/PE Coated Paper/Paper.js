@@ -34,7 +34,7 @@ export default function Paper() {
                   variants={textVariants}
                 >
                   <p>Welcome To Foilam Global</p>
-                  <h1>Ply Laminated Foil <br />Manufacturer</h1>
+                  <h1>Laminated Aluminium Foil <br />Manufacturer</h1>
 
                   <div className="car-btn row caras-sm">
                     <div className="col-auto">

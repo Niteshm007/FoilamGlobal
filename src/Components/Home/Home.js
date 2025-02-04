@@ -9,10 +9,10 @@ import IFocus from './IFocus/IFocus';
 
 
 export default function Home() {
-  useEffect(() => {
-    // Smoothly scroll to the top of the page
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  }, []);
+  // useEffect(() => {
+  //   // Smoothly scroll to the top of the page
+  //   window.scrollTo({ top: 0, behavior: 'smooth' });
+  // }, []);
 
   return (
     <div className="Home Ovr-hd m-tb">

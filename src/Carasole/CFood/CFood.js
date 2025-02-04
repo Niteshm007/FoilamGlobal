@@ -32,7 +32,7 @@ export default function CFood() {
                 variants={textVariants}
               >
                 <p>Welcome To Foilam Global</p>
-                <h1>Food & Baverages Industries <br />Manufacturer</h1>
+                <h1>Solvant Based Laminated Products <br />Manufacturer</h1>
 
                 <div className="car-btn row caras-sm">
                   <div className="col-auto">

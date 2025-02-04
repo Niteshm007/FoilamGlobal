@@ -34,7 +34,7 @@ export default function Insulation() {
                   variants={textVariants}
                 >
                   <p>Welcome To Foilam Global</p>
-                  <h1>Insulation Material <br />Manufacturer</h1>
+                  <h1>Laminated Metalized Film <br />Manufacturer</h1>
 
                   <div className="car-btn row caras-sm">
                     <div className="col-auto">
