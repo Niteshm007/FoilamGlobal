@@ -10,7 +10,7 @@ export default function CMap() {
           <div className="col-md-6">
             <div className="cm-l">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3672.1228309020858!2d72.7517487758814!3d23.019261816450687!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e19930a8bc9db%3A0xeb87940438f459dd!2sAkshar%20Copack%20LLC!5e0!3m2!1sen!2sin!4v1729921320050!5m2!1sen!2sin"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d70919.2845848031!2d72.64334533147964!3d23.016575885317383!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e7d004399a9c1%3A0xfe0cf9ff461983bb!2sFoilam%20Global!5e1!3m2!1sen!2sin!4v1738643718427!5m2!1sen!2sin"
                 width="100%"
                 height="550"
                 style={{ border: 0 }}

@@ -149,7 +149,7 @@ export default function CForm() {
                   <div className="cont" align="center">
                     <span>
                       <a
-                        href="https://maps.app.goo.gl/ikYR29rPe6pZpNbMA"
+                        href="https://maps.app.goo.gl/cHi89yAmoCghuCEN6"
                         target="_blank"
                       >
                         <MdLocationPin className="icn" /> Find Us On Map
@@ -170,7 +170,7 @@ export default function CForm() {
                     <div className="cfd-cont">
                       <h3>Our Email</h3>
                       <p>
-                        <MdOutlineEmail /> foilamglobal@gmail.com
+                        <MdOutlineEmail /> sales.foilamglobal@gmail.com
                       </p>
                     </div>
                   </div>

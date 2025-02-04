@@ -99,7 +99,7 @@ export default function Footer() {
                   <FiMail className="f-icon" />
                 </div>
                 <div className="txt">
-                  <p>foilamglobal@gmail.com</p>
+                  <p>sales.foilamglobal@gmail.com</p>
                 </div>
               </div>
               <div className="ftr-social">
