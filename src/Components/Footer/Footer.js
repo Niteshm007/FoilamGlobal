@@ -19,13 +19,16 @@ export default function Footer() {
             <div className="left-f">
               <h3>About Us</h3>
               <p className="pr-sz">
-                Foilam Global is a top-notched and renowned company based in
-                Ahmedabad with an enormous consideration of quality and
-                solution-based Manufacturing, Exporting and supplying insulation
-                material, Coated paper, Woven and Non-woven based extrusion
-                laminated materials. Foilam Global is committed to providing
-                timely and high-quality products at affordable prices to benefit
-                our customers.
+                FoiLam Global is putting the new technology and Machines in its
+                production to find the best way to fulfil the client’s
+                Requirements for Solvent base Products. We always continuously
+                emphasize on an unfazed focus towards the satisfaction and
+                success of the client. Our strength lies in Export oriented
+                work, well plan infrastructure, in house R&D facility and our
+                experienced staff members. Most of the team members have
+                expertise in the field of creative products Laminating
+                materials, and the manufacturing of Laminated Aluminium Foil and
+                Metalized Products.
               </p>
             </div>
           </div>
